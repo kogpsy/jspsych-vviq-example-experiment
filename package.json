@@ -1,6 +1,7 @@
 {
   "name": "jspsych-vviq-example-experiment",
   "version": "0.1.0",
+  "language": "english",
   "license": "MIT",
   "author": "Robin Bürkli <robuba.jr@gmx.ch>",
   "description": "",
