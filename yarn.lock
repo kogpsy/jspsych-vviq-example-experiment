@@ -1673,6 +1673,35 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@jspsych/plugin-survey-html-form@npm:^1.0.0":
+  version: 1.0.0
+  resolution: "@jspsych/plugin-survey-html-form@npm:1.0.0"
+  peerDependencies:
+    jspsych: ">=7.0.0"
+  checksum: 544e7e055f7a45c663349200a51af42e50b2a12d1d1ac80111089a0b752d6449e0b9d3c2e54b959290d1e262a7998a08686d4060191e325cca218d8217395df0
+  languageName: node
+  linkType: hard
+
+"@jspsych/plugin-survey-likert@npm:^1.1.0":
+  version: 1.1.0
+  resolution: "@jspsych/plugin-survey-likert@npm:1.1.0"
+  peerDependencies:
+    jspsych: ">=7.1.0"
+  checksum: d99b907d8ab7e8b6f1b0fe87cf99a853145d0e79beaf368311b65f942cd1482d3c56af5b11eb8c71ab631ece10f65f2e57251009628571188252fe1633744718
+  languageName: node
+  linkType: hard
+
+"@kogpsy/jspsych-vviq@npm:^2.0.5":
+  version: 2.0.5
+  resolution: "@kogpsy/jspsych-vviq@npm:2.0.5"
+  peerDependencies:
+    "@jspsych/plugin-html-keyboard-response": ^1.1.0
+    "@jspsych/plugin-survey-likert": ^1.1.0
+    jspsych: ^7.1.2
+  checksum: af8fe3e32373309beb9c4b0d4cc1626ff04bcdc85ef8d0df830fb79b5b490a7f00a29215827ef362d20dbb6d9ecdc871a8ad6c9c6c3c65a637eee37a2c9a2075
+  languageName: node
+  linkType: hard
+
 "@nodelib/fs.scandir@npm:2.1.5":
   version: 2.1.5
   resolution: "@nodelib/fs.scandir@npm:2.1.5"
@@ -6789,13 +6818,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jspsych-experiment-template@workspace:.":
+"jspsych-vviq-example-experiment@workspace:.":
   version: 0.0.0-use.local
-  resolution: "jspsych-experiment-template@workspace:."
+  resolution: "jspsych-vviq-example-experiment@workspace:."
   dependencies:
     "@jspsych/plugin-fullscreen": ^1.1.0
     "@jspsych/plugin-html-keyboard-response": ^1.1.0
     "@jspsych/plugin-preload": ^1.1.0
+    "@jspsych/plugin-survey-html-form": ^1.0.0
+    "@jspsych/plugin-survey-likert": ^1.1.0
+    "@kogpsy/jspsych-vviq": ^2.0.5
     jspsych: ^7.2.1
     jspsych-builder: ^4.1.2
     prettier: 2.6.0
