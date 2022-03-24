@@ -1,0 +1,23 @@
+{
+  "name": "jspsych-experiment-template",
+  "version": "1.0.0",
+  "license": "MIT",
+  "author": "Robin Bürkli <robuba.jr@gmx.ch>",
+  "description": "A template experiment to build upon.",
+  "scripts": {
+    "dev": "jspsych run",
+    "build": "jspsych build"
+  },
+  "dependencies": {
+    "@jspsych/plugin-fullscreen": "^1.1.0",
+    "@jspsych/plugin-html-keyboard-response": "^1.1.0",
+    "@jspsych/plugin-preload": "^1.1.0",
+    "jspsych": "^7.2.1"
+  },
+  "devDependencies": {
+    "jspsych-builder": "^4.1.2",
+    "prettier": "2.6.0"
+  },
+  "browserslist": ">0.25%, not dead",
+  "packageManager": "yarn@3.1.1"
+}
