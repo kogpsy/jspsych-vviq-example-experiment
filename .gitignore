@@ -9,4 +9,8 @@
 node_modules
 
 packaged
+bundle
 .jspsych-builder
+
+.Rproj.user
+.Rhistory
