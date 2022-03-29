@@ -96,7 +96,7 @@ export async function run({ assetPaths, input = {}, environment }) {
     // object is not created here but injected at runtime. This is why for the
     // following line, TypeScript errors are ignored.
     // @ts-ignore
-    jatos.submitResultData(resultData.csv(), jatos.startNextComponent);
+    jatos.submitResultData(resultData.json(), jatos.startNextComponent);
   }
   // In every other environment, print the data to the browser console in JSON
   // form. Here you can adjust what should happen to the data if the experiment
